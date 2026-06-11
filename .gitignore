@@ -409,7 +409,6 @@ FodyWeavers.xsd
 /src/xpp/models/*/BuildProjectResult.xml
 /src/xpp/models/*/CompileLabels.xml
 
-
 # Exclude source files in isv folder
 /src/xpp/isv/*/*.axmodel
 /src/xpp/isv/*/*.zip
@@ -422,3 +421,6 @@ FodyWeavers.xsd
 /src/xpp/isv/*/bin/*.delete
 /src/xpp/isv/*/Resources/*/*.delete
 /src/xpp/isv/*/Resources/*.delete
+
+# Exclude debugging files in models folder
+/src/xpp/models/XppSource
